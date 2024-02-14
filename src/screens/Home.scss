@@ -1,0 +1,57 @@
+/* FILEPATH: /Users/badr/dev/my-react-app/src/screens/Home.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  color: black;
+}
+
+.gif_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gif {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000a0;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+  background-color: rgba(241, 128, 128, 0.989);
+  flex: 1;
+  color: black;
+}
